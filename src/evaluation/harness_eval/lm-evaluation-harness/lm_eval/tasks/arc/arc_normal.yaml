@@ -1,0 +1,11 @@
+include: arc_easy.yaml
+task: arc_normal
+dataset_path: ./csv_loader.py
+dataset_kwargs:
+  data_files: ../data/contamination/arc/contamination.csv
+  train_kwargs:
+    path: allenai/ai2_arc
+    name: ARC-Challenge
+    split: train
+num_fewshot: 5
+fewshot_split: train

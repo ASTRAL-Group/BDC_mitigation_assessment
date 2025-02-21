@@ -1,0 +1,21 @@
+include: truthfulqa_mc1.yaml
+task: truthfulqa_normal
+dataset_path: ./csv_loader.py
+dataset_kwargs:
+  data_files: ../data/truthfulqa/original.csv
+  train_kwargs:
+    path: truthful_qa
+    name: multiple_choice
+    split: validation
+doc_to_target: 0
+doc_to_choice: "{{mc2_targets.choices}}"
+validation_split: test
+process_results: !function utils.process_results_mc2
+should_decontaminate: True
+doc_to_decontamination_query: question
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 2.0
