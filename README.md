@@ -2,7 +2,7 @@
 
 This repository contains the code necessary to assess benchmark data contamination (BDC) **mitigation** **strategies** based on the paper *The Emperor's New Clothes in Benchmarking? A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination.*
 
-![BDC mitigation](figures/background.png)
+![BDC mitigation](figures/background.jpg)
 
 We propose a systematic and controlled pipeline along with two novel metrics, fidelity and contamination resistance, to provide a fine-grained and
 comprehensive assessment of BDC mitigation strategies.
@@ -11,7 +11,7 @@ comprehensive assessment of BDC mitigation strategies.
 
 Our pipeline consists of the following steps:
 
-![Pipeline Overview](figures/pipeline.png)
+![Pipeline Overview](figures/pipeline.jpg)
 
 ### Step 1: Pick an uncontaminated LLM-benchmark pair.
 
