@@ -1,4 +1,4 @@
-# A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination
+# A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination 🛡️
 
 This repository contains the code necessary to assess benchmark data contamination (BDC) **mitigation** **strategies** based on the paper *The Emperor's New Clothes in Benchmarking? A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination.*
 
