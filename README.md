@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ## An Illustrative Example
 
-We provide an example to demonstrate our assessment process. Suppose we aim to assess the BDC mitigation strategy  **Typographical Perturbation** . We select the LLM-benchmark pair **meta-llama/Llama-3.1-8B** and  **allenai/ai2_arc** .
+We provide an example to demonstrate our assessment process. Suppose we aim to assess the BDC mitigation strategy **Typographical Perturbation**. We select the LLM-benchmark pair **meta-llama/Llama-3.1-8B** and **allenai/ai2_arc**.
 
 The following code computes the **fidelity** and **contamination resistance** of this strategy.
 
