@@ -7,7 +7,7 @@ This repository contains the code necessary to assess benchmark data contaminati
 We propose a systematic and controlled pipeline along with two novel metrics, fidelity and contamination resistance, to provide a fine-grained and
 comprehensive assessment of BDC mitigation strategies.
 
-## Pipeline Overview
+## 🔄 Pipeline Overview
 
 Our pipeline consists of the following steps:
 
@@ -35,7 +35,7 @@ Evaluation vectors are computed for: (a) uncontaminated LLM with the original be
 
 Fidelity and resistance are derived based on the degree of matching between these evaluation vectors. An effective mitigation strategy should achieve high scores in both metrics.
 
-## Installation
+## ⚙️ Installation
 
 The library has been designed and tested with **Python 3.10** and  **CUDA 12.8**. First, ensure that **CUDA 12.8** is installed, then run the following commands:
 
@@ -45,7 +45,7 @@ conda activate bdc
 pip install -r requirements.txt
 ```
 
-## An Illustrative Example
+## 💡 An Illustrative Example
 
 We provide an example to demonstrate our assessment process. Suppose we aim to assess the BDC mitigation strategy **Typographical Perturbation**. We select the LLM-benchmark pair **meta-llama/Llama-3.1-8B** and **allenai/ai2_arc**.
 
@@ -161,10 +161,10 @@ Alternatively, you can also use [lm-evaluation-harness](https://github.com/Eleut
 
 We compute the **fidelity** and **contamination resistance** metrics using the provided notebook **`calculate_metrics.ipynb`**.
 
-# Acknowledgement
+# 🙏 Acknowledgement
 
 Part of our codes is based on [LLMSanitize](https://github.com/ntunlp/LLMSanitize), [ConStat](https://github.com/eth-sri/ConStat) and [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness). We gratefully acknowledge their contributions.
 
-# Citation
+# 📜 Citation
 
 If you find our paper helpful, please kindly consider citing our paper in your publication.
