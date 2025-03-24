@@ -168,3 +168,12 @@ Part of our codes is based on [LLMSanitize](https://github.com/ntunlp/LLMSanitiz
 # 📜 Citation
 
 If you find our paper helpful, please kindly consider citing our paper in your publication.
+
+```bibtex
+@article{sun2025emperor,
+  title={The Emperor's New Clothes in Benchmarking? A Rigorous Examination of Mitigation Strategies for LLM Benchmark Data Contamination},
+  author={Sun, Yifan and Wang, Han and Li, Dongbai and Wang, Gang and Zhang, Huan},
+  journal={arXiv preprint arXiv:2503.16402},
+  year={2025}
+}
+```
